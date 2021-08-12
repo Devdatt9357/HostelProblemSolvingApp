@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/contact_pop_height"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="@dimen/cornerRadius">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans"
+                android:text="Your account will be permanently deleted."
+                android:textColor="@color/colorPrimaryDark2"
+                android:textSize="@dimen/descript2"
+                app:layout_constraintEnd_toStartOf="@+id/guideline232"
+                app:layout_constraintStart_toStartOf="@+id/guideline229"
+                app:layout_constraintTop_toTopOf="@+id/guideline231" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="Delete account?"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/call"
+                app:layout_constraintStart_toStartOf="@+id/guideline229"
+                app:layout_constraintTop_toTopOf="@+id/guideline230" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline230"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".13" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline231"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".325" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/ripple_effect"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/guideline228"
+                app:layout_constraintTop_toTopOf="@+id/guideline227"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/ripple_effect"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline228"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideline227" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="Delete"
+                android:textColor="@color/colorCaution"
+                android:textSize="@dimen/descript"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageView47"
+                app:layout_constraintStart_toStartOf="@+id/guideline228"
+                app:layout_constraintTop_toTopOf="@+id/imageView47" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:text="Cancel"
+                android:textColor="@color/colorPrimaryDark2"
+                android:textSize="@dimen/descript"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline228"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView48" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline227"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent=".6906" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline228"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".5" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline229"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".0667" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".933" />
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="@color/colorboxBorder"
+                app:layout_constraintBottom_toTopOf="@+id/guideline227"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideline227"></TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:background="@color/colorboxBorder"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline228"
+                app:layout_constraintStart_toStartOf="@+id/guideline228"
+                app:layout_constraintTop_toTopOf="@+id/guideline227"></TableRow>
+
+            <RelativeLayout
+                android:id="@+id/progress_layout7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/progress_background"
+                android:elevation="8dp"
+                android:padding="10dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ProgressBar
+                    android:id="@+id/progressBar7"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

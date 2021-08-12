@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppMaterialTheme" parent="SuperMaterialTheme">
+        <item name="android:autofilledHighlight">@color/colorPrimary2</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+    </style>
+
+</resources>

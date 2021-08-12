@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".RecyclerlistListenerActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline287"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline288"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".15" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button22"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/but_marginTop"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Submit"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/recy_heading"
+        android:fontFamily="@font/segoeprodisplay_semibold"
+        android:textAllCaps="false"
+        app:cornerRadius="@dimen/cornerRadius"
+        app:layout_constraintEnd_toStartOf="@+id/guideline287"
+        app:layout_constraintStart_toStartOf="@+id/guideline288"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView"
+        app:rippleColor="@color/googleBorderRipple"
+        app:strokeColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline270"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".0386" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline271"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".9615" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline269"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0903" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline269"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/shadow"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline286"
+            app:layout_constraintEnd_toStartOf="@+id/guideline284"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_arrow_reverse" />
+
+        <Button
+            android:id="@+id/button21"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline286"
+            app:layout_constraintEnd_toStartOf="@+id/guideline284"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rippleColor="@color/colorAccent2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline284"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".1313" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline285"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.015" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline286"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".86" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeprodisplay_semibold"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/recy_heading"
+            app:layout_constraintBottom_toTopOf="@+id/guideline286"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline269" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/last_cardViewheight"
+        android:layout_marginTop="@dimen/headingText"
+        app:cardCornerRadius="@dimen/cornerRadius"
+        app:layout_constraintEnd_toStartOf="@+id/guideline271"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline270"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView2">
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/multiline_margin"
+            android:background="@null"
+            android:ems="10"
+            android:fontFamily="@font/segoepro_regular"
+            android:gravity="start|top"
+            android:hint="Describe the issue in detail."
+            android:inputType="textMultiLine"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/multiline_text" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <RelativeLayout
+        android:id="@+id/progress_layout9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/progress_background"
+        android:elevation="8dp"
+        android:padding="10dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar9"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimarydull">#D9FFFFFF</color>
+    <color name="colorPrimary2">#00FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#2A7BAD</color>
+    <color name="colorAccent2">#1e577a</color>
+    <color name="colorAccentRipple">#422A7BAD</color>
+    <color name="colorGrey">#17787878</color>
+    <color name="colorBackground">#eaf4fa</color>
+    <color name="colorBackground2">#c1def0</color>
+    <color name="colorboxBorder">#dae1e6</color>
+    <color name="googleBorder">#505050</color>
+    <color name="googleBorderRipple">#66595959</color>
+    <color name="googleBorderRippleLight">#42595959</color>
+    <color name="colorHint">#a6a6a6</color>
+    <color name="colorPrimaryDark2">#586060</color>
+    <color name="colorGreen">#28a745</color>
+    <color name="colorCaution">#b00000</color>
+</resources>

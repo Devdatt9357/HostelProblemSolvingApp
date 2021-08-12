@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#031d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#031d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#051d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#051d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#081d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#081d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#0a1d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#0d1d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#0f1d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#121d4259" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#141d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="@dimen/cornerThick2" />
+            <solid android:color="#171d4259" />
+        </shape>
+    </item>
+    <item>
+        <shape >
+            <gradient
+                android:angle="90"
+                android:endColor="@color/colorAccent"
+                android:startColor="@color/colorAccent" />
+        </shape>
+    </item>
+
+    <!-- White Top color -->
+</layer-list>

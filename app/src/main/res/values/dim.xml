@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Applicable to all
+    <dimen name="cornerThick2">0.8dp</dimen>     	default 0.8
+    <dimen name="cornerThick">1.5dp</dimen>      	default 1.5
+    <dimen name="cornerRadius2">8dp</dimen> 	    default 8
+    <dimen name="Email">14dp</dimen>	    	    default 14
+    <dimen name="cornerRadius">15dp</dimen>      	default 15
+    <dimen name="Email_input">17dp</dimen>	     	default 17
+    <dimen name="button">18dp</dimen>		        default 18
+    <dimen name="signup">34dp</dimen>	     	    default 34
+
+
+    // Main activity and sliders
+    <dimen name="indicator">10dp</dimen>	     	default 10
+    <dimen name="next">16dp</dimen>		     	    default 16
+    <dimen name="subheading">21dp</dimen>	     	default 21
+    <dimen name="heading">30dp</dimen>	     	    default 30
+
+
+    //Sign up activity
+    <dimen name="error">12dp</dimen>	     	    default 12
+    <dimen name="already">16dp</dimen>	     	    default 16
+    <dimen name="or">20dp</dimen>		    	    default 20
+
+
+    //Welcome activity
+    <dimen name="description">18dp</dimen>		    default 18
+
+
+    //Home activity
+    <dimen name="welcome_heading">17dp</dimen>	    default 17
+
+
+    //Header
+    <dimen name="headerLine_gap">5dp</dimen>	    default 5
+    <dimen name="nav_text">15dp</dimen>		        default 15
+    <dimen name="header_heading">16dp</dimen>	    default 16
+    <dimen name="headerButton_height">46dp</dimen>	default 46
+
+
+    //Bug and feedback
+    <dimen name="description_size">14dp</dimen> 	default 14
+    <dimen name="bug_head">18dp</dimen>		        default 18
+
+
+    //Pop ups
+    <dimen name="descript">15dp</dimen>		        default 15
+    <dimen name="descript2">16dp</dimen>		    default 16
+    <dimen name="exit">18dp</dimen>			        default 18
+    <dimen name="call">20dp</dimen>			        default 20
+    <dimen name="exit_popup_height">160dp</dimen>	default 160
+    <dimen name="contact_pop_height">175dp</dimen>	default 175
+    <dimen name="profile_pop_height">270dp</dimen>	default 270
+
+
+    //Recycler views
+    <dimen name="multiline_text">15dp</dimen>	    default 15
+    <dimen name="recycler_item_space">15dp</dimen>	default 15
+    <dimen name="headingText">16dp</dimen>	        default 16
+    <dimen name="description_text">17dp</dimen>	    default 17
+    <dimen name="recy_heading">18dp</dimen>		    default 18
+    <dimen name="multiline_margin">20dp</dimen> 	default 20
+    <dimen name="but_marginTop">30dp</dimen>	    default 30
+    <dimen name="recycle_last_height">90dp</dimen>	default 90
+    <dimen name="recycle_mid_height">130dp</dimen>	default 130
+    <dimen name="last_cardViewheight">150dp</dimen>	default 150
+    <dimen name="home_card_height">160dp</dimen>	default 160
+    <dimen name="home_card_width">160dp</dimen>		default 160
+    <dimen name="recycle_home_height">190dp</dimen>	default 190
+
+    //Profile
+    <dimen name="Profile_head">14dp</dimen> 	    default 14
+    <dimen name="Profile_desc">16dp</dimen> 	    default 16
+
+
+
+
+</resources>

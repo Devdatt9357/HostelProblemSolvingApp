@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ninja Fixit</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">2737525746523933</string>
+    <string name="fb_login_protocol_scheme">fb2737525746523933</string>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "606222785123",
+    "firebase_url": "https://nitw-ninja-fixit.firebaseio.com",
+    "project_id": "nitw-ninja-fixit",
+    "storage_bucket": "nitw-ninja-fixit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606222785123:android:9b063b6278b2fdb4293656",
+        "android_client_info": {
+          "package_name": "com.example.ninjafixit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606222785123-ru0rbaiv8ikaptj8lcngqh54ntpqf6r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ninjafixit",
+            "certificate_hash": "332127dd10f7594daff07044870e1b85138ceac6"
+          }
+        },
+        {
+          "client_id": "606222785123-muvtom4m5q3i867q12lesncjdcngcla9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCniPnqfO0Bi3lSQlTgpQGasbJ_zmQZHSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606222785123-muvtom4m5q3i867q12lesncjdcngcla9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
